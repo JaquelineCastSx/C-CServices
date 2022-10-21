@@ -1,5 +1,7 @@
-h1{
+h1, h4{
     font-family: 'Old Standard TT', serif;
+    color: #102b46;
+    font-weight: 300;
 }
 #nav-logo{
     width: 10px;
@@ -15,6 +17,7 @@ nav{
 }
 #barra{
     font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
 }
 #quees{
     background-color: #F6F7FC;
@@ -26,12 +29,18 @@ nav{
     position: absolute;
     height: fit-content;
     width: 100%;
+    background-image: url(../imagenes/Background\ \(1\).svg);
+    background-size: contain;
+}
+#barraNos{
+    max-height: 300px;
 }
 #head{
     align-items: center;
     position: relative;
-    max-width: 500px;
-    left: 30%;
+    max-width: 50vw;
+    max-height: 40vw;
+    text-align: center;
 }
 #slogan{
     color: #23314C;
@@ -40,6 +49,7 @@ nav{
 .desc{
     color: #6D81FE;
     font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
 }
 .blob{
     position: absolute;
@@ -48,14 +58,18 @@ nav{
 #blob{
     position: relative;
     align-self: center;
-    width: 100%;
+    max-width: 55vw;
+    max-height: 40vw;
 }
 #somos{
     position: relative;
     top: -50%;
-    max-width: 100%;
+    left: 29vw;
+    max-width: 30vw;
+    max-height: 20vw;
     color: #000000;
-    font-size: 5vw;
+    font-size: 6vw;
+    align-self: center;
 }
 #fondo{
     position: absolute;
@@ -68,7 +82,7 @@ nav-item:hover {
 }
 .text{
     font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
+    padding-left: 0;
     padding-right: 20px;
 }
 .nosotros{
@@ -97,25 +111,27 @@ nav-item:hover {
     position: absolute;
 }
 .bg-items{
-    padding: 20px;
-    width: 230px;
-    height: 200px;
+    position: relative;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
     background-color: #FFFFFF;
     float: left;
+    left: 6vw;
     cursor: pointer;
     box-shadow: 3px, 3px, 5px, 0px rgba(0, 0, 0, 0.5);
 }
 .items{
-    width: 230px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     position: relative;
     overflow: hidden;
     background-color: #102b46;
 }
 .details{
     background-color: rgba(246, 247, 252, 0.5);
-    width: 230px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     padding: 10px;
     top: 0;
     left: 0;
