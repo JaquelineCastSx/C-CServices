@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C&C</title>
+  <!--Css Propio-->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- CSS bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Hover -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- BootStrap iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--Icono-->
+  <link rel="shortcut icon" href="imagenes/logo.svg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--INICIO-->
+  <div id="fondo">
+    <img src="imagenes/FONDO (1).webp" alt="blob de fondo" class="blob">
+  </div>
+  <nav class="navbar navbar-expand-lg" style="width: 100%;">
+    <div class="container-fluid" style="width: 100%;">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/logo.svg" alt="LogotipoDeEmpresa" width="10%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Esta es donde se centra el nav bar, se le pone el "m-auto" y se centrara toda la barra-->
+      <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto" id="barra">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Desarrollo Móvil</a></li>
+              <li><a class="dropdown-item" href="#">Desarrollo de escritorio</a></li>
+              <li><a class="dropdown-item" href="#">Desarrollo web</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Asesoría y soluciones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+        <!--<form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide w-40" data-bs-ride="carousel"
+    style="width: 70%; margin: 30px; position: relative; left: 10%;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/Nuevo proyecto (1).webp" class="d-block" alt="diseño web" width="100%">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/tech.webp" class="d-block" alt="equipo de trabajo" width="100%">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/img.webp" class="d-block" alt="diseño en papel" width="100%">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid py-5" id="quees">
+    <div class="container">
+      <div class="row" data-aos="zoom-in">
+        <div class="col-12 text-center">
+          <h1 id="slogan">C&C Services</h1>
+          <h2 class="desc">Consultoría y Cambio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-8 py-5">
+          <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci voluptas molestiae
+            distinctio ad laborum quasi aut, deleniti, neque minus sed magni libero saepe vero architecto amet
+            inventore, voluptatem nostrum!</p>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aut accusantium odit veniam,
+            id tenetur architecto eos. Reiciendis libero distinctio, dolores ex molestias accusantium perspiciatis
+            culpa, voluptates beatae numquam ipsum!</p>
+        </div>
+        <div class="col-12 col-md-4 text-center" data-aos="zoom-out">
+          <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+          <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="hover"
+            colors="primary:#23314C,secondary:#CD8987" style="width:250px;height:250px">
+          </lord-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--NOSOTROS-->
+
+      <div class="container-fluid py-3" id="banner">
+        <div class="row">
+          <div class="col-5 text-center py-5" id="head" data-aos="fade-up">
+            <img src="imagenes/Blob (1).webp" alt="blob titulo" id="blob">
+            <h1 id="somos">¿Quiénes somos?</h1>
+          </div>
+        </div>
+      </div>
+      
+      <!--<br>
+      <div>
+        <div class="nosotros" data-aos="fade-up">
+          <img src="imagenes/Blob (1).webp" alt="blob titulo">
+          <h1>¿Quiénes somos?</h1>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="cuadro"></div>
+          <img src="" alt="">
+        </div>
+      </div>-->
+
+
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

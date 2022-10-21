@@ -1,0 +1,99 @@
+h1{
+    font-family: 'Old Standard TT', serif;
+}
+#nav-logo{
+    width: 10px;
+    height: 15px;
+    width: fit-content;
+}
+#logo{
+    width: 10px;
+    height: 15px;
+}
+nav{
+    background-color: #F6F7FC;
+}
+#barra{
+    font-family: 'Roboto', sans-serif;
+}
+#quees{
+    background-color: #F6F7FC;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+#banner{
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+}
+#head{
+    align-items: center;
+    position: relative;
+    max-width: 50%;
+    left: 30%;
+}
+#slogan{
+    color: #23314C;
+    font-size: 5vw;
+}
+.desc{
+    color: #6D81FE;
+    font-family: 'Roboto', sans-serif;
+}
+.blob{
+    position: absolute;
+    width: 100%;
+}
+#blob{
+    position: relative;
+    align-self: center;
+    width: 100%;
+}
+#somos{
+    position: relative;
+    top: -50%;
+    left: -20px;
+    max-width: 100%;
+    color: #000000;
+    font-size: 5vw;
+}
+#fondo{
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    width: fit-content;
+}
+nav-item:hover {
+    background-color: #23314C;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nosotros{
+    align-content: center;
+    position: absolute;
+    width: 40%;
+}
+.nosotros img{
+    position: absolute;
+    width: 80%;
+    opacity: 0.9;
+    left: 70%;
+    top: 90px;
+}
+.nosotros h1 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 130px;
+    font-size: 5em;
+    font-family: 'Old Standard TT', serif;
+    left: 60%;
+}
+.cuadro{
+    background-color: #C46D5E;
+    position: absolute;
+}
