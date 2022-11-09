@@ -1,7 +1,11 @@
 h1, h4{
     font-family: 'Old Standard TT', serif;
-    color: #102b46;
+    color: #23314C;
     font-weight: 300;
+}
+h4{
+    text-align: justify;
+    color: #CD8987;
 }
 #nav-logo{
     width: 10px;
@@ -17,39 +21,34 @@ nav{
 }
 #barra{
     font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
+    position: relative;
+    left: 130px;
+    font-size: 1.5vw;
+}
+#carrusel{
+    background-color: #FFFFFF;
+    margin-top:0px;
 }
 #quees{
-    background-color: #F6F7FC;
     position: relative;
     height: fit-content;
-    width: 100%;
+    width: 95%;
+    background-color: #EFEDFF;
+    border-radius: 25px;
 }
 #banner{
-    position: absolute;
+    position: relative;
     height: fit-content;
     width: 100%;
-    background-image: url(../imagenes/Background\ \(1\).svg);
-    background-size: contain;
+    border-radius: 30px;
 }
-#barraNos{
-    max-height: 300px;
-}
-#head{
-    align-items: center;
-    position: relative;
-    max-width: 50vw;
-    max-height: 40vw;
-    text-align: center;
-}
-#slogan{
-    color: #23314C;
-    font-size: 5vw;
+#prod{
+    height: 60px;
 }
 .desc{
     color: #6D81FE;
     font-family: 'Roboto', sans-serif;
-    font-size: 3vw;
+    /*font-size: 3vw;*/
 }
 .blob{
     position: absolute;
@@ -58,24 +57,17 @@ nav{
 #blob{
     position: relative;
     align-self: center;
-    max-width: 55vw;
-    max-height: 40vw;
+    max-width: 60vw;
+    max-height: 50vw;
 }
 #somos{
     position: relative;
-    top: -50%;
-    left: 29vw;
-    max-width: 30vw;
-    max-height: 20vw;
+    width: 400px;
+    height: 200px;
     color: #000000;
-    font-size: 6vw;
-    align-self: center;
-}
-#fondo{
-    position: absolute;
-    width: 100%;
-    height: 1080px;
-    width: fit-content;
+    text-align: center;
+    padding-top: 80px;
+    
 }
 nav-item:hover {
     background-color: #23314C;
@@ -84,6 +76,7 @@ nav-item:hover {
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
     padding-right: 20px;
+    text-align: left;
 }
 .nosotros{
     align-content: center;
@@ -106,37 +99,33 @@ nav-item:hover {
     font-family: 'Old Standard TT', serif;
     left: 60%;
 }
-.cuadro{
-    background-color: #C46D5E;
-    position: absolute;
-}
 .bg-items{
     position: relative;
-    padding: 10px;
-    width: 240px;
-    height: 240px;
-    background-color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #CD8987;
     float: left;
-    left: 6vw;
     cursor: pointer;
     box-shadow: 3px, 3px, 5px, 0px rgba(0, 0, 0, 0.5);
 }
 .items{
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
-    background-color: #102b46;
+    background-color: #F6F7FC;
 }
 .details{
     background-color: rgba(246, 247, 252, 0.5);
-    width: 240px;
-    height: 240px;
-    padding: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
     top: 0;
     left: 0;
     font-family: 'Roboto', sans-serif;
-    color: #23314C;
+    color: #000000;
     opacity: 0;
 }
 .details p{
@@ -147,6 +136,106 @@ nav-item:hover {
 .items:hover .details{
     opacity: 1;
 }
+.items div{
+    position: relative;
+}
+.frame{
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    background-color: #102b46;
+    transition: all .3s;
+    transform: scale(0,0);
+}
+.items:hover .frame{
+    left: 0;
+    top: 0;
+    transform: scale(1,1);
+    transition: all .3s;
+}
 #descripcion{
     max-width: 100%;
+}
+#productos{
+    background-color: #f1f1f1;
+    border: 1px #102b46 solid;
+    margin: 8px;
+    text-align: left;
+    border-radius: 15px;
+}
+#productos h2{
+    font-family: 'Old Standard TT', serif;
+    color: #23314C;
+    font-weight: 300;
+}
+#productos p{
+    text-align: left;
+}
+#whats{
+    color: #CD8987;
+    background-color: #f1f1f1;
+    font-family: 'Old Standard TT', serif;
+    text-decoration: none;
+    font-size: 1.8vw;
+}
+#whats:hover{
+    color: #102b46;
+}
+ul{
+    list-style: url(../imagenes/lapiz\ \(1\).webp);
+    text-align: left;
+}
+#imagen{
+    max-width: fit-content;
+    margin-top: 25px;
+}
+#imagen img{
+    border-radius: 15px;
+    width: 90%;
+}
+#iconos{
+    width: 150px;
+}
+#form {
+	display: inline-block;
+	background: #102b46;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	text-align: center;
+
+}
+#form h1{
+    color: white;
+	font-size: 40px;
+}
+.formline {
+	background: transparent;
+	border-bottom: 2px solid white;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	margin: 20px;
+	font-size: 15px;
+	color: white;
+	resize: none;
+	outline: none;
+}
+
+.button {
+	color: white;
+	padding: 7px 14px;
+	border: 2px solid white;
+	background: transparent;
+	margin-top: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease;
+}
+
+.button:hover {
+	background: white;
+	color: #061724;
 }
