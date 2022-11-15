@@ -23,7 +23,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     position: relative;
     left: 130px;
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 #carrusel{
     background-color: #FFFFFF;
@@ -197,17 +197,15 @@ ul{
 #iconos{
     width: 150px;
 }
-#form {
+#formulario {
 	display: inline-block;
 	background: #102b46;
 	width: 400px;
-	height: 500px;
+	height: 520px;
 	border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-	text-align: center;
-
 }
-#form h1{
+#formulario h1{
     color: white;
 	font-size: 40px;
 }
@@ -238,4 +236,37 @@ ul{
 .button:hover {
 	background: white;
 	color: #061724;
+}
+#piedepagina{
+    background-color: #6D81FE;
+    position: absolute;
+}
+#piedepagina p{
+    color: #000000;
+}
+#piedepagina a{
+    color: #000000;
+    text-decoration: none;
+}
+#piedepagina p:hover{
+    color: #CD8987;
+}
+#piedepagina a:hover{
+    color: #CD8987;
+}
+carousel-control-next-icon, carousel-control-prev-icon{
+color: #000000;
+}
+#contact{
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    background-color: #EFEDFF;
+    border-radius: 25px;
+    left: 20px;
+}
+#arriba{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
 }
