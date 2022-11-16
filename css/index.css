@@ -22,8 +22,8 @@ nav{
 #barra{
     font-family: 'Roboto', sans-serif;
     position: relative;
-    left: 130px;
     font-size: 25px;
+    
 }
 #carrusel{
     background-color: #FFFFFF;
@@ -46,9 +46,8 @@ nav{
     height: 60px;
 }
 .desc{
-    color: #6D81FE;
+    color: #23314C;
     font-family: 'Roboto', sans-serif;
-    /*font-size: 3vw;*/
 }
 .blob{
     position: absolute;
@@ -177,7 +176,7 @@ nav-item:hover {
     background-color: #f1f1f1;
     font-family: 'Old Standard TT', serif;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 28px;
 }
 #whats:hover{
     color: #102b46;
@@ -188,7 +187,7 @@ ul{
 }
 #imagen{
     max-width: fit-content;
-    margin-top: 50px;
+    align-self: center;
 }
 #imagen img{
     border-radius: 15px;
@@ -204,7 +203,7 @@ ul{
 	height: 520px;
 	border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    align-items: center;
+    align-self: flex-start;
 }
 #formulario h1{
     color: white;
@@ -255,13 +254,10 @@ ul{
 #piedepagina a:hover{
     color: #CD8987;
 }
-carousel-control-next-icon, carousel-control-prev-icon{
-color: #000000;
-}
 #contact{
     position: relative;
     height: fit-content;
-    width: 50%;
+    width: fit-content;
     background-color: #EFEDFF;
     border-radius: 25px;
     left: 20px;
@@ -270,4 +266,12 @@ color: #000000;
     position: absolute;
     right: 0;
     bottom: 0px;
+}
+#seguridad{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+#icon{
+    width: fit-content;
 }

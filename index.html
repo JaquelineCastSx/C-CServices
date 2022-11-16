@@ -29,8 +29,8 @@
 
 <body>
   <!--INICIO-->
-  <nav class="navbar navbar-expand-lg" style="width: 100%;" id="inicio">
-    <div class="container-fluid" style="width: 100%;">
+  <nav class="navbar navbar-expand-lg" style="width: 100%; height: fit-content;" id="inicio">
+    <div class="container-fluid" style="width: 100%; height: fit-content;">
       <a class="navbar-brand" href="#inicio">
         <img src="imagenes/logo(1).webp" alt="tipoDeEmpresa" style="width:40%; position: relative; left:25px;">
       </a>
@@ -39,7 +39,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!--Esta es donde se centra el nav bar, se le pone el "m-auto" y se centrara toda la barra-->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse m-auto flex-row-reverse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-50" id="barra">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -161,7 +161,7 @@
   <div class="container-fluid py-3" id="banner">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 text-center" data-aos="flip-up">
+        <div class="col-12 col-md-4 text-center d-flex justify-content-evenly " data-aos="flip-up">
           <a target="_blank" rel="nofollow noopener noreferrer"
             href="https://www.linkedin.com/in/jaqueline-santoyo-7a4166244/">
             <div class="bg-items">
@@ -181,13 +181,13 @@
           <h4>Estudiante de Ingeniería de Software y Sistemas Computacionales</h4>
           <p class="text">Creadora de la empresa y diseñadora del sitio web, experta en HTML, CSS y Java.</p>
         </div>
-        <div class="col-12 col-md-2 py-5" data-aos="flip-up">
+        <div class="col-12 col-md-2 py-5 d-flex justify-content-evenly " data-aos="flip-up" id="icon">
           <img src="imagenes/html.webp" alt="simbolos html" id="iconos">
         </div>
       </div>
       <br>
       <div class="row">
-        <div class="col-12 col-md-4 text-center" data-aos="flip-up">
+        <div class="col-12 col-md-4 text-center d-flex justify-content-evenly" data-aos="flip-up">
           <a target="_blank" rel="nofollow noopener noreferrer"
             href="https://www.linkedin.com/in/ces%C3%A1reo-castillo-torres-590b8a6a/">
             <div class="bg-items">
@@ -207,13 +207,13 @@
           <h4>Ingeniero en Sistemas Computacionales. Master en Tecnologías Web y Dispositivos Móviles</h4>
           <p class="text">Programador Senior, experto en tecnologías web y . Net, co-fundador de la empresa.</p>
         </div>
-        <div class="col-12 col-md-2 py-5" data-aos="flip-up">
+        <div class="col-12 col-md-2 py-5 d-flex justify-content-evenly " data-aos="flip-up" id="icon">
           <img src="imagenes/coding.webp" alt="simbolos html" id="iconos">
         </div>
       </div>
       <br>
       <div class="row">
-        <div class="col-12 col-md-4 text-center" data-aos="flip-up">
+        <div class="col-12 col-md-4 text-center d-flex justify-content-evenly" data-aos="flip-up">
           <a target="_blank" rel="nofollow noopener noreferrer"
             href="https://www.linkedin.com/in/iv%C3%A1n-cabrera-717907250/">
             <div class="bg-items">
@@ -234,7 +234,7 @@
           <p class="text">Socio de la empresa, experto en optimización y mejora de tiempos y calidad de servicio,
             experto en análisis de datos con R.</p>
         </div>
-        <div class="col-12 col-md-2 py-5" data-aos="flip-up">
+        <div class="col-12 col-md-2 py-5 d-flex justify-content-evenly " data-aos="flip-up" id="icon">
           <img src="imagenes/box.webp" alt="simbolos html" id="iconos">
         </div>
       </div>
@@ -327,15 +327,18 @@
   </div>
 
   <div class="container-fluid py-5" id="contact">
-    <div class="container" id="contacto">
+    <div class="container d-flex justify-content-evenly" id="contacto">
       <div class="row" data-aos="zoom-in">
-        <div class="col-12 text-center">
+        <div class="col-12 col-md-6 text-center">
           <h1 id="slogan">Contáctanos</h1>
           <h2 class="desc">No esperes más y empieza a crecer tu negocio ahora</h2>
+          <br>
+          <p id="seguridad">Ingresa tus datos y con gusto nos pondremos en contacto contigo,
+            tu seguridad es lo más importante para nosotros, revisa nuestro aviso de privacidad
+            para más información sobre el uso de tus datos.
+          </p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 p-4 text-center" id="formulario">
+        <div class="col-12 col-md-6 p-4 text-center " id="formulario">
           <h1>Formulario de Contacto</h1>
           <form>
             <input type="text" name="firstname" placeholder="Nombre" class="formline" style="width: 105px;">
@@ -346,6 +349,7 @@
           </form>
         </div>
       </div>
+        
     </div>
   </div>
 <br>
@@ -369,8 +373,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-3" data-aos="zoom-in">
-                    <h3>PRIVACIDAD</h3>
-                    <p><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso de privacidad</a></p>
+                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso de privacidad</a></h3>
                 </div>
             <div class="col-12 col-md-3" data-aos="zoom-in">
                 <h3>SÍGUENOS EN REDES</h3>
