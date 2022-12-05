@@ -21,10 +21,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <!--Icono-->
   <link rel="shortcut icon" href="imagenes/logo(1).svg" type="image/x-icon">
-
+  <!--<script src="JS/script.js"></script>-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto&display=swap" rel="stylesheet">
+  <!--FancyBox-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 </head>
 
 <body>
@@ -56,10 +58,11 @@
               <li><a class="dropdown-item" href="#movil">Desarrollo Móvil</a></li>
               <li><a class="dropdown-item" href="#escritorio">Desarrollo de escritorio</a></li>
               <li><a class="dropdown-item" href="#web">Desarrollo web</a></li>
+              <li><a class="dropdown-item" href="#asesoria">Asesoría y soluciones</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#asesoria">Asesoría y soluciones</a></li>
+              <li><a class="dropdown-item" href="#galeria">Celulares y Portátiles</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -326,8 +329,51 @@
     </div>
   </div>
 
+  <div class="container-fluid py-5" id="quees">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3 text-center" id="t">
+        </div>
+        <div class="col-12 col-md-3 text-center" id="galeria">
+          <a href="imagenes/iphone13.webp" data-fancybox="gallery" data-caption="iPhone 13">
+            <img src="imagenes/iphone13.webp" alt="celular iPhone 13" class="w-100 p-3">
+          </a>
+          <a href="imagenes/oppo.webp" data-fancybox="gallery" data-caption="OPPO F19">
+            <img src="imagenes/oppo.webp" alt="celular OPPO F19" class="w-100 p-3">
+          </a>
+          <a href="imagenes/galaxy_book.webp" data-fancybox="gallery" data-caption="Computadora portátil Samsung Galaxy Book">
+            <img src="imagenes/galaxy_book.webp" alt="Computadora portátil Samsung Galaxy Book" class="w-100 p-3">
+          </a>
+        </div>
+        <div class="col-12 col-md-3 text-center" id="galeria">
+          <a href="imagenes/iphoneX.webp" data-fancybox="gallery" data-caption="iPhoneX">
+            <img src="imagenes/iphoneX.webp" alt="celular iPhoneX" class="w-100 p-3">
+          </a>
+          <a href="imagenes/huawei.webp" data-fancybox="gallery" data-caption="Huawei P30">
+            <img src="imagenes/huawei.webp" alt="celular Huawei" class="w-100 p-3">
+          </a>
+          <a href="imagenes/surface.webp" data-fancybox="gallery" data-caption="Computadora portátil Microsoft Surface">
+            <img src="imagenes/surface.webp" alt="Computadora portátil Microsoft Surface" class="w-100 p-3">
+          </a>
+        </div>
+        <div class="col-12 col-md-3 text-center" id="galeria">
+          <a href="imagenes/samsunga32.webp" data-fancybox="gallery" data-caption="Samsung a32">
+            <img src="imagenes/samsunga32.webp" alt="celular Samsung a32" class="w-100 p-3">
+          </a>
+          <a href="imagenes/macbook.webp" data-fancybox="gallery" data-caption="Computadora portatil MacBook Pro">
+            <img src="imagenes/macbook.webp" alt="Computadora portatil MacBook Pro" class="w-100 p-3">
+          </a>
+          <a href="imagenes/infinix.webp" data-fancybox="gallery" data-caption="Computadora portatil Infinix INBOOK">
+            <img src="imagenes/infinix.webp" alt="Computadora portatil Infinix INBOOK" class="w-100 p-3">
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <br>
   <div class="container-fluid py-5" id="contact">
-    <div class="container d-flex justify-content-evenly" id="contacto">
+    <div class="container d-flex justify-content-around" id="contacto">
       <div class="row" data-aos="zoom-in">
         <div class="col-12 col-md-6 text-center">
           <h1 id="slogan">Contáctanos</h1>
@@ -338,7 +384,7 @@
             para más información sobre el uso de tus datos.
           </p>
         </div>
-        <div class="col-12 col-md-6 p-4 text-center " id="formulario">
+        <div class="col-12 col-md-4 p-4 text-center " id="formulario">
           <h1>Formulario de Contacto</h1>
           <form>
             <input type="text" name="firstname" placeholder="Nombre" class="formline" style="width: 105px;">
@@ -349,54 +395,79 @@
           </form>
         </div>
       </div>
-        
+
     </div>
   </div>
-<br>
+  <br>
+
+  
+  <br>
   <div class="container-fluid text-white p-5" id="piedepagina" data-aos="fade-up">
     <footer>
-            <div class="row">
-                <div class="col-12 col-md-3" data-aos="zoom-in">
-                    <h3>CONTÁCTANOS</h3>
-                    <p>
-                    <a href="tel:4775436320"><i class="fa-solid fa-phone"></i> 4775436320</a>
-                    </p>
-                    <address>
-                        <p>
-                            <a target="_blank" rel="nofollow noopener noreferrer" href="https://www.google.com/maps/place/Av.+Colinas+de+Plata+216,+Colinas+de+Plata,+37210+Le%C3%B3n,+Gto./@21.1657515,-101.6322017,19z/data=!3m1!4b1!4m5!3m4!1s0x842bbeb36a6f7953:0x86e4922504147cf6!8m2!3d21.1657515!4d-101.6316545">
-                            <i class="fas fa-map-marker"></i> Blvd. Colinas de Plata #216, Col. Colinas de Plata, C.P. 37210, León, Guanajuato, México.
-                            </a>
-                        </p>
-                    </address>
-                    <p>
-                        <a href="mailto:ccservices428@gmail.com"><i class="fa-solid fa-envelope"></i>ccservices428@gmail.com</a>
-                    </p>
-                </div>
-                <div class="col-12 col-md-3" data-aos="zoom-in">
-                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso de privacidad</a></h3>
-                </div>
-            <div class="col-12 col-md-3" data-aos="zoom-in">
-                <h3>SÍGUENOS EN REDES</h3>
-                <a target="_blank" rel="nofollow noopener noreferrer" class="iconoredes hvr-grow" href="https://www.facebook.com/profile.php?id=100087970776057">
-                  <img src="imagenes/face.webp" alt="logo de facebook">
-                </a>
-                <a target="_blank" rel="nofollow noopener noreferrer" class="iconoredes hvr-grow" href="https://www.instagram.com/c_cservices/">
-                  <img src="imagenes/insta.webp" alt="logo de instagram">
-                </a>
-            </div>
-            <div class="col-12 col-md-3 my-5 m-md-0" data-aos="flip-up">
-                <a href="index.html" class="hvr-grow ligapiedepagina">
-                <img src="imagenes/logo(1).webp" alt="NOMICLOUD" class="w-75">
-                </a>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-12 text-center" data-aos="zoom-in">
-                <p>C&C Services, Consultoría y Cambio | &copy; 2022 Todos los derechos reservados</p>
-                <p><a target="_blank" rel="nofollow noopener noreferrer" href="">Sitio web por Taller de Desarrollo</a></p>
-            </div>
-            </div>
+      <div class="row">
+        <div class="col-12 col-md-3" data-aos="zoom-in">
+          <h3>CONTÁCTANOS</h3>
+          <p>
+            <a href="tel:4775436320"><i class="fa-solid fa-phone"></i> 4775436320</a>
+          </p>
+          <address>
+            <p>
+              <a target="_blank" rel="nofollow noopener noreferrer"
+                href="https://www.google.com/maps/place/Av.+Colinas+de+Plata+216,+Colinas+de+Plata,+37210+Le%C3%B3n,+Gto./@21.1657515,-101.6322017,19z/data=!3m1!4b1!4m5!3m4!1s0x842bbeb36a6f7953:0x86e4922504147cf6!8m2!3d21.1657515!4d-101.6316545">
+                <i class="fas fa-map-marker"></i> Blvd. Colinas de Plata #216, Col. Colinas de Plata, C.P. 37210, León,
+                Guanajuato, México.
+              </a>
+            </p>
+          </address>
+          <p>
+            <a href="mailto:ccservices428@gmail.com"><i class="fa-solid fa-envelope"></i>ccservices428@gmail.com</a>
+          </p>
+        </div>
+        <div class="col-12 col-md-3" data-aos="zoom-in">
+          <h3><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso de privacidad</a></h3>
+        </div>
+        <div class="col-12 col-md-3" data-aos="zoom-in">
+          <h3>SÍGUENOS EN REDES</h3>
+          <a target="_blank" rel="nofollow noopener noreferrer" class="iconoredes hvr-grow"
+            href="https://www.facebook.com/profile.php?id=100087970776057">
+            <img src="imagenes/face.webp" alt="logo de facebook">
+          </a>
+          <a target="_blank" rel="nofollow noopener noreferrer" class="iconoredes hvr-grow"
+            href="https://www.instagram.com/c_cservices/">
+            <img src="imagenes/insta.webp" alt="logo de instagram">
+          </a>
+        </div>
+        <div class="col-12 col-md-3 my-5 m-md-0" data-aos="flip-up">
+          <a href="index.html" class="hvr-grow ligapiedepagina">
+            <img src="imagenes/logo(1).webp" alt="Services" class="w-75">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center" data-aos="zoom-in">
+          <p>C&C Services, Consultoría y Cambio | &copy; 2022 Todos los derechos reservados</p>
+          <p><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/es">Imagenes obtenidas de
+              Unsplash</a></p>
+        </div>
+      </div>
     </footer>
+  </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- JavaScript Bundle with Popper -->
@@ -405,9 +476,31 @@
     crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
   <script>
     AOS.init();
+  </script>
+
+  <script>
+    var paises = document.getElementById("t");
+    fetch("productos.json")
+      .then(response => {
+        response.json().then(productos => {
+          productos.forEach(registro => {
+            let nombre = document.createElement("p");
+            nombre.textContent = "Producto: "
+              + registro.title
+              + ", Marca: " + registro.brand;
+            paises.appendChild(nombre);
+
+            let espacio = document.createElement("br");
+          });
+        });
+      });
+
+      let aviso = document.getElementById()
   </script>
 </body>
 

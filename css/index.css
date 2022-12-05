@@ -44,6 +44,7 @@ nav{
 }
 #prod{
     height: 60px;
+    font-size: 48px;
 }
 .desc{
     color: #23314C;
@@ -70,6 +71,13 @@ nav{
 }
 nav-item:hover {
     background-color: #23314C;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 22px;
 }
 .text{
     font-family: 'Roboto', sans-serif;
@@ -157,8 +165,7 @@ nav-item:hover {
     max-width: 100%;
 }
 #productos{
-    background-color: #f1f1f1;
-    border: 1px #102b46 solid;
+    background-color: #f5e7e7;
     margin: 8px;
     text-align: left;
     border-radius: 15px;
@@ -167,13 +174,16 @@ nav-item:hover {
     font-family: 'Old Standard TT', serif;
     color: #23314C;
     font-weight: 300;
+    font-size: 38px;
 }
 #productos p{
+    position: relative;
     text-align: left;
+    left: 30px;
 }
 #whats{
     color: #CD8987;
-    background-color: #f1f1f1;
+    background-color: #f5e7e7;
     font-family: 'Old Standard TT', serif;
     text-decoration: none;
     font-size: 28px;
@@ -182,7 +192,7 @@ nav-item:hover {
     color: #102b46;
 }
 ul{
-    list-style: url(../imagenes/lapiz\ \(1\).webp);
+    list-style: url(../imagenes/lapiz.webp);
     text-align: left;
 }
 #imagen{
