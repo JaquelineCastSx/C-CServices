@@ -33,7 +33,7 @@
   <!--INICIO-->
   <nav class="navbar navbar-expand-lg" style="width: 100%; height: fit-content;" id="inicio">
     <div class="container-fluid" style="width: 100%; height: fit-content;">
-      <a class="navbar-brand" href="#inicio">
+      <a class="navbar-brand" href="index.html">
         <img src="imagenes/logo(1).webp" alt="tipoDeEmpresa" style="width:40%; position: relative; left:25px;">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -52,7 +52,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#prod" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Productos
+              Productos y servicios
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#movil">Desarrollo Móvil</a></li>
@@ -245,15 +245,14 @@
   </div>
   <br>
   <div class="container-fluid py-3" id="quees1">
-    <div class="container">
+    <div class="container" id="producto">
       <div class="row" data-aos="zoom-in">
         <div class="col-12 text-center p-5">
-          <h1 id="prod">Productos</h1>
+          <h1 id="prod">Productos y servicios</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-md-12 p-2" data-aos="flip-right" id="productos">
-        </div>
+      <div class="row" data-aos="flip-right">
+      </div>
     </div>
   </div>
 
@@ -295,8 +294,9 @@
             <img src="imagenes/infinix.webp" alt="Computadora portatil Infinix INBOOK" class="w-100 p-3">
           </a>
         </div>
+        </div>
       </div>
-      
+
     </div>
   </div>
   <br>
@@ -314,7 +314,7 @@
         </div>
         <div class="col-12 col-md-4 p-4 text-center " id="formulario">
           <h1>Formulario de Contacto</h1>
-          <form>
+          <form method="get">
             <input type="text" name="firstname" placeholder="Nombre" class="formline" style="width: 105px;">
             <input type="text" name="lastname" placeholder="Apellido" class="formline" style="width: 97px;"><br>
             <input type="email" name="email" placeholder="Email" class="formline" style="width: 250px;"><br>
@@ -328,7 +328,7 @@
   </div>
   <br>
 
-  
+
   <br>
   <div class="container-fluid text-white p-5" id="piedepagina" data-aos="fade-up">
     <footer>
@@ -342,7 +342,8 @@
             <p>
               <a target="_blank" rel="nofollow noopener noreferrer"
                 href="https://www.google.com/maps/place/Av.+Colinas+de+Plata+216,+Colinas+de+Plata,+37210+Le%C3%B3n,+Gto./@21.1657515,-101.6322017,19z/data=!3m1!4b1!4m5!3m4!1s0x842bbeb36a6f7953:0x86e4922504147cf6!8m2!3d21.1657515!4d-101.6316545">
-                <i class="fas fa-map-marker"></i> Blvd. Colinas de Plata #216, Col. Colinas de Plata, C.P. 37210, León,
+                <i class="fas fa-map-marker"></i> Blvd. Colinas de Plata #216, Col. Colinas de Plata, C.P. 37210,
+                León,
                 Guanajuato, México.
               </a>
             </p>
@@ -374,13 +375,15 @@
       <div class="row">
         <div class="col-12 text-center" data-aos="zoom-in">
           <p>C&C Services, Consultoría y Cambio | &copy; 2022 Todos los derechos reservados</p>
-          <p><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/es">Imagenes obtenidas de
+          <p><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/es">Imagenes obtenidas
+              de
               Unsplash</a></p>
         </div>
       </div>
     </footer>
   </div>
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -388,7 +391,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Con fundamento en los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en Posesión de Particulares hacemos de su conocimiento que C&C Services, es responsable de recabar sus datos personales, del uso que se le da a los mismos y de su protección. Utilizará sus datos personales, recabados por este medio, con la finalidad de mantener contacto con Usted, atenderle y establecer la relación comercial necesaria relacionada con los objetivos de esta empresa.
+          Con fundamento en los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en Posesión de
+          Particulares hacemos de su conocimiento que C&C Services, es responsable de recabar sus datos personales,
+          del uso que se le da a los mismos y de su protección. Utilizará sus datos personales, recabados por este
+          medio, con la finalidad de mantener contacto con Usted, atenderle y establecer la relación comercial
+          necesaria relacionada con los objetivos de esta empresa.
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
@@ -399,11 +406,11 @@
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
   <script>
@@ -411,7 +418,7 @@
   </script>
 
   <script>
-    var paises = document.getElementById("t");
+    var prod = document.getElementById("t");
     fetch("productos.json")
       .then(response => {
         response.json().then(productos => {
@@ -420,28 +427,67 @@
             nombre.textContent = "Producto: "
               + registro.title
               + ", Marca: " + registro.brand;
-            paises.appendChild(nombre);
+            prod.appendChild(nombre);
 
             let espacio = document.createElement("br");
           });
         });
       });
 
-      let servicio = document.getElementById("productos");
-      fetch("servicios.json")
+    let servicio = document.getElementById("producto");
+    fetch("servicios.json")
       .then(response => {
         response.json().then(servicios => {
           servicios.forEach(registro => {
-            let nombre = document.createElement("h2");
-            nombre.textContent = registro.titulo
-            + ": "
-            +registro.descripcion;
-            servicio.appendChild(nombre);
 
+            let row = document.createElement("div");
+            row.className = "row";
+
+            let columna = document.createElement("div");
+            columna.className = "col-6 col-md-6 p-2";
+            columna.id = "productos";
+
+            let nombre = document.createElement("h2");
+            nombre.innerHTML = registro.titulo;
+            + ": ";
+
+            let detalle = document.createElement("p");
+            detalle.innerHTML = registro.descripcion;
+
+            let lista = document.createElement("ul");
+
+            let elemento = document.createElement("li");
+            elemento.innerHTML = registro.caracteristicas;
+
+            let img = document.createElement("div");
+            img.className = "col-6 col-md-6 p-2";
+            img.id = "imagen";
+
+            let foto = document.createElement("img");
+            foto.src = "imagenes/" + registro.imagen;
+
+            let link = document.createElement("a");
+            link.href = registro.link;
+            link.target = "_blank";
+            link.rel = "nofollow noopener noreferrer";
+            link.id = "whats";
+            link.innerHTML = "Comienza ahora";
+
+            servicio.appendChild(row);
+            row.appendChild(columna);
+            columna.appendChild(nombre);
+            columna.appendChild(detalle);
+            columna.appendChild(lista);
+            columna.appendChild(link);
+            lista.appendChild(elemento);
+            row.appendChild(img);
+            img.appendChild(foto);
+            
 
           });
         });
       });
+      
   </script>
 </body>
 

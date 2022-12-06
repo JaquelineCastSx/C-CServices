@@ -1,27 +1,30 @@
 [
     {
         "titulo": "Desarrollo Móvil",
-        "imagen": "smartphone.webp",
+        "imagen": "movil.webp",
         "descripcion": "Desarrollo de aplicaciones para celulares y tabletas",
-        "caracteristicas": "Mayor presencia con los usuarios, Buena disponibilidad de la información, Personalización de la atención, Óptima experiencia de usuario",
+        "caracteristicas": ["Mayor presencia con los usuarios", 
+        " Buena disponibilidad de la información", 
+        " Personalización de la atención", 
+        " Óptima experiencia de usuario"],
         "link": "https://walink.co/a5bb4b"
     },{
         "titulo": "Desarrollo de Escritorio",
-        "imagen": "windows.webp",
+        "imagen": "laptop.webp",
         "descripcion": "Desarrollo de aplicaciones para computadora de escritorio o portátil",
-        "caracteristicas": "Mayor capacidad de información, Tiempo de respuesta rápido, Permite mejor control de la información",
+        "caracteristicas": ["Mayor capacidad de información", " Tiempo de respuesta rápido", " Permite mejor control de la información"],
         "link": "https://walink.co/a4ecea"
     },{
         "titulo": "Desarrollo Web",
-        "imagen": "web.webp",
+        "imagen": "online.webp",
         "descripcion": "Desarrollo de páginas web para el mejor posicionamiento de tu negocio",
-        "caracteristicas": "Almacenamiento en la nube, No requiere instalación, Mayor presencia con los usuarios, Servicio de hosting y landing",
+        "caracteristicas": ["Almacenamiento en la nube", " No requiere instalación", " Mayor presencia con los usuarios", " Servicio de hosting y landing"],
         "link": "https://walink.co/c91da0"
     },{
         "titulo": "Asesoría y soluciones",
-        "imagen": "men.webp",
+        "imagen": "work.webp",
         "descripcion": "Guía mano a mano con nuestros expertos sobre las mejores decisiones de tecnología para tu negocio",
-        "caracteristicas": "Soluciones de acuerdo a sus necesidades, Análisis de los datos del negocio, Atención personalizada y solución única para el negocio",
+        "caracteristicas": ["Soluciones de acuerdo a sus necesidades", " Análisis de los datos del negocio", " Atención personalizada y solución única para el negocio"],
         "link": "https://walink.co/c91da0"
     }
 ]
