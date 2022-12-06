@@ -1,102 +1,122 @@
-h1, h4{
+h1,
+h4 {
     font-family: 'Old Standard TT', serif;
     color: #23314C;
     font-weight: 300;
 }
-h4{
+
+h4 {
     text-align: justify;
     color: #CD8987;
 }
-#nav-logo{
+
+#nav-logo {
     width: 10px;
     height: 15px;
     width: fit-content;
 }
-#logo{
+
+#logo {
     width: 10px;
     height: 15px;
 }
-nav{
+
+nav {
     background-color: #F6F7FC;
 }
-#barra{
+
+#barra {
     font-family: 'Roboto', sans-serif;
     position: relative;
     font-size: 25px;
-    
+
 }
-#carrusel{
+
+#carrusel {
     background-color: #FFFFFF;
-    margin-top:0px;
+    margin-top: 0px;
 }
-#quees{
+
+#quees {
     position: relative;
     height: fit-content;
     width: 95%;
     background-color: #EFEDFF;
     border-radius: 25px;
 }
-#banner{
+
+#banner {
     position: relative;
     height: fit-content;
     width: 100%;
     border-radius: 30px;
 }
-#prod{
+
+#prod {
     height: 60px;
     font-size: 48px;
 }
-.desc{
+
+.desc {
     color: #23314C;
     font-family: 'Roboto', sans-serif;
 }
-.blob{
+
+.blob {
     position: absolute;
     width: 100%;
 }
-#blob{
+
+#blob {
     position: relative;
     align-self: center;
     max-width: 60vw;
     max-height: 50vw;
 }
-#somos{
+
+#somos {
     position: relative;
     width: 400px;
     height: 200px;
     color: #000000;
     text-align: center;
     padding-top: 80px;
-    
+
 }
+
 nav-item:hover {
     background-color: #23314C;
 }
-#t p{
+
+#t p {
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
     padding-right: 20px;
     text-align: left;
     font-size: 22px;
 }
-.text{
+
+.text {
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
     padding-right: 20px;
     text-align: left;
 }
-.nosotros{
+
+.nosotros {
     align-content: center;
     position: absolute;
     width: 40%;
 }
-.nosotros img{
+
+.nosotros img {
     position: absolute;
     width: 80%;
     opacity: 0.9;
     left: 70%;
     top: 90px;
 }
+
 .nosotros h1 {
     text-align: center;
     position: relative;
@@ -106,7 +126,8 @@ nav-item:hover {
     font-family: 'Old Standard TT', serif;
     left: 60%;
 }
-.bg-items{
+
+.bg-items {
     position: relative;
     padding: 20px;
     width: 200px;
@@ -117,14 +138,16 @@ nav-item:hover {
     cursor: pointer;
     box-shadow: 3px, 3px, 5px, 0px rgba(0, 0, 0, 0.5);
 }
-.items{
+
+.items {
     width: 200px;
     height: 200px;
     position: relative;
     overflow: hidden;
     background-color: #F6F7FC;
 }
-.details{
+
+.details {
     background-color: rgba(246, 247, 252, 0.5);
     width: 200px;
     height: 200px;
@@ -135,136 +158,166 @@ nav-item:hover {
     color: #000000;
     opacity: 0;
 }
-.details p{
+
+.details p {
     font-size: 14px;
     text-align: center;
     line-height: 20px;
 }
-.items:hover .details{
+
+.items:hover .details {
     opacity: 1;
 }
-.items div{
+
+.items div {
     position: relative;
 }
-.frame{
+
+.frame {
     left: 0;
     top: 0;
     width: inherit;
     height: inherit;
     background-color: #102b46;
     transition: all .3s;
-    transform: scale(0,0);
+    transform: scale(0, 0);
 }
-.items:hover .frame{
+
+.items:hover .frame {
     left: 0;
     top: 0;
-    transform: scale(1,1);
+    transform: scale(1, 1);
     transition: all .3s;
 }
-#descripcion{
+
+#descripcion {
     max-width: 100%;
 }
-#productos{
+
+#productos {
     background-color: #f5e7e7;
     margin: 8px;
-    text-align: left;
+    text-align: center;
     border-radius: 15px;
 }
-#productos h2{
+
+#productos h2 {
     font-family: 'Old Standard TT', serif;
     color: #23314C;
     font-weight: 300;
-    font-size: 38px;
-}
-#productos p{
-    position: relative;
+    font-size: 32px;
     text-align: left;
-    left: 30px;
 }
-#whats{
+
+#productos p {
+
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 22px;
+    
+}
+
+#whats {
     color: #CD8987;
     background-color: #f5e7e7;
     font-family: 'Old Standard TT', serif;
     text-decoration: none;
     font-size: 28px;
 }
-#whats:hover{
+
+#whats:hover {
     color: #102b46;
 }
-ul{
+
+ul {
     list-style: url(../imagenes/lapiz.webp);
     text-align: left;
 }
-#imagen{
+
+#imagen {
     max-width: fit-content;
     align-self: center;
 }
-#imagen img{
+
+#imagen img {
     border-radius: 15px;
     width: 90%;
 }
-#iconos{
+
+#iconos {
     width: 150px;
 }
+
 #formulario {
-	display: inline-block;
-	background: #102b46;
-	width: 400px;
-	height: 520px;
-	border-radius: 10px;
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: inline-block;
+    background: #102b46;
+    width: 400px;
+    height: 520px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     align-self: flex-start;
 }
-#formulario h1{
+
+#formulario h1 {
     color: white;
-	font-size: 40px;
+    font-size: 40px;
 }
+
 .formline {
-	background: transparent;
-	border-bottom: 2px solid white;
-	border-top: 0;
-	border-right: 0;
-	border-left: 0;
-	margin: 20px;
-	font-size: 15px;
-	color: white;
-	resize: none;
-	outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+    resize: none;
+    outline: none;
 }
 
 .button {
-	color: white;
-	padding: 7px 14px;
-	border: 2px solid white;
-	background: transparent;
-	margin-top: 30px;
-	cursor: pointer;
-	border-radius: 5px;
-	transition: 0.5s ease;
+    color: white;
+    padding: 7px 14px;
+    border: 2px solid white;
+    background: transparent;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s ease;
 }
 
 .button:hover {
-	background: white;
-	color: #061724;
+    background: white;
+    color: #061724;
 }
-#piedepagina{
+
+#piedepagina {
     background-color: #6D81FE;
     position: absolute;
 }
-#piedepagina p{
+
+#piedepagina p {
     color: #000000;
 }
-#piedepagina a{
+
+#piedepagina a {
     color: #000000;
     text-decoration: none;
 }
-#piedepagina p:hover{
+
+#piedepagina p:hover {
     color: #CD8987;
 }
-#piedepagina a:hover{
+
+#piedepagina a:hover {
     color: #CD8987;
 }
-#contact{
+
+#contact {
     position: relative;
     height: fit-content;
     width: fit-content;
@@ -272,16 +325,23 @@ ul{
     border-radius: 25px;
     left: 20px;
 }
-#arriba{
+
+#arriba {
     position: absolute;
     right: 0;
     bottom: 0px;
 }
-#seguridad{
+
+#seguridad {
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     font-size: 20px;
 }
-#icon{
+
+#icon {
     width: fit-content;
+}
+
+#quees1 img {
+    align-self: flex-end;
 }

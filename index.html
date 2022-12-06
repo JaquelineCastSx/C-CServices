@@ -252,80 +252,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 p-2 text-center" data-aos="flip-right" id="productos">
-          <h2 id="movil">Desarrollo Móvil</h2>
-          <img src="imagenes/smartphone.webp" alt="icono de smartphones a color">
-          <p class="text">Desarrollo de aplicaciones para celulares y tabletas</p>
-          <p class="text">Características:</p>
-          <ul>
-            <li>Mayor presencia con los usuarios</li>
-            <li>Buena disponibilidad de la información</li>
-            <li>Personalización de la atención</li>
-            <li>Óptima experiencia de usuario</li>
-          </ul>
-          <a href="https://walink.co/a5bb4b" target="_blank" rel="nofollow noopener noreferrer" id="whats">Comienza
-            ahora</a>
+        <div class="col-12 col-md-12 p-2" data-aos="flip-right" id="productos">
         </div>
-        <div class="col-12 col-md-5 p-2 text-center" data-aos="flip-left" id="imagen">
-          <img src="imagenes/movil.webp" alt="telefono movil">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 p-2 text-center" data-aos="flip-right" id="productos">
-          <h2 id="escritorio">Desarrollo de Escritorio</h2>
-          <img src="imagenes/windows.webp" alt="monitor con windows a color">
-          <p class="text">Desarrollo de aplicaciones para computadora de escritorio o portátil</p>
-          <p class="text">Características:</p>
-          <ul>
-            <li>Mayor capacidad de información</li>
-            <li>Tiempo de respuesta rápido</li>
-            <li>Permite mejor control de la información</li>
-          </ul>
-          <a href="https://walink.co/a4ecea" target="_blank" rel="nofollow noopener noreferrer" id="whats">Comienza
-            ahora</a>
-        </div>
-        <div class="col-12 col-md-5 p-2 text-center" data-aos="flip-left" id="imagen">
-          <img src="imagenes/laptop.webp" alt="computadora portatil">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 p-2 text-center" data-aos="flip-right" id="productos">
-          <h2 id="web">Desarrollo Web</h2>
-          <img src="imagenes/web.webp" alt="red web">
-          <p class="text">Desarrollo de páginas web para el mejor posicionamiento de tu negocio</p>
-          <p class="text">Características:</p>
-          <ul>
-            <li>Almacenamiento en la nube</li>
-            <li>No requiere instalación</li>
-            <li>Mayor presencia con los usuarios</li>
-            <li>Servicio de hosting y landing</li>
-          </ul>
-          <a href="https://walink.co/c91da0" target="_blank" rel="nofollow noopener noreferrer" id="whats">Comienza
-            ahora</a>
-        </div>
-        <div class="col-12 col-md-5 p-2 text-center" data-aos="flip-left" id="imagen">
-          <img src="imagenes/online.webp" alt="telefono movil">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 text-center" data-aos="flip-right" id="productos">
-          <h2 id="asesoria">Asesoría y soluciones</h2>
-          <img src="imagenes/men.webp" alt="hombre con telefono">
-          <p class="text">Guía mano a mano con nuestros expertos sobre las mejores decisiones de tecnología para tu
-            negocio</p>
-          <p class="text">Características:</p>
-          <ul>
-            <li>Soluciones de acuerdo a sus necesidades</li>
-            <li>Análisis de los datos del negocio</li>
-            <li>Atención personalizada y solución única para el negocio</li>
-          </ul>
-          <a href="https://walink.co/c91da0" target="_blank" rel="nofollow noopener noreferrer" id="whats">Comienza
-            ahora</a>
-        </div>
-        <div class="col-12 col-md-5 p-2 text-center" data-aos="flip-left" id="imagen">
-          <img src="imagenes/work.webp" alt="mujeres trabajando">
-        </div>
-      </div>
     </div>
   </div>
 
@@ -499,7 +427,21 @@
         });
       });
 
-      let aviso = document.getElementById()
+      let servicio = document.getElementById("productos");
+      fetch("servicios.json")
+      .then(response => {
+        response.json().then(servicios => {
+          servicios.forEach(registro => {
+            let nombre = document.createElement("h2");
+            nombre.textContent = registro.titulo
+            + ": "
+            +registro.descripcion;
+            servicio.appendChild(nombre);
+
+
+          });
+        });
+      });
   </script>
 </body>
 
