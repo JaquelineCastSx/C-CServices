@@ -55,10 +55,10 @@
               Productos y servicios
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#movil">Desarrollo Móvil</a></li>
-              <li><a class="dropdown-item" href="#escritorio">Desarrollo de escritorio</a></li>
-              <li><a class="dropdown-item" href="#web">Desarrollo web</a></li>
-              <li><a class="dropdown-item" href="#asesoria">Asesoría y soluciones</a></li>
+              <li><a class="dropdown-item" href="#productos">Desarrollo Móvil</a></li>
+              <li><a class="dropdown-item" href="#productos">Desarrollo de escritorio</a></li>
+              <li><a class="dropdown-item" href="#productos">Desarrollo web</a></li>
+              <li><a class="dropdown-item" href="#productos">Asesoría y soluciones</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -76,6 +76,7 @@
       </div>
     </div>
   </nav>
+  <!--CARRUSEL-->
   <div id="carrusel">
     <div class="container-fluid py-5" id="quees1">
       <div class="container">
@@ -98,13 +99,13 @@
       </div>
       <div class="carousel-inner" style="border-radius: 30px;">
         <div class="carousel-item active">
-          <img src="imagenes/mockup.webp" class="d-block" alt="diseño web" width="100%">
+          <img src="imagenes/navidad.webp" class="d-block" alt="diseño web" width="100%">
         </div>
         <div class="carousel-item">
-          <img src="imagenes/tech.webp" class="d-block" alt="equipo de trabajo" width="100%">
+          <img src="imagenes/techno.webp" class="d-block" alt="equipo de trabajo" width="100%">
         </div>
         <div class="carousel-item">
-          <img src="imagenes/img.webp" class="d-block" alt="diseño en papel" width="100%">
+          <img src="imagenes/lap.webp" class="d-block" alt="diseño en papel" width="100%">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -122,7 +123,7 @@
   </div>
 
   <br>
-
+<!--DETALLES-->
   <div class="container-fluid py-5" id="quees">
     <div class="container">
       <div class="row" data-aos="zoom-in">
@@ -160,7 +161,7 @@
       </div>
     </div>
   </div>
-
+<!--INFORMACION INTEGRANTES-->
   <div class="container-fluid py-3" id="banner">
     <div class="container">
       <div class="row">
@@ -244,6 +245,7 @@
     </div>
   </div>
   <br>
+  <!--SERVICIOS-->
   <div class="container-fluid py-3" id="quees1">
     <div class="container" id="producto">
       <div class="row" data-aos="zoom-in">
@@ -255,7 +257,7 @@
       </div>
     </div>
   </div>
-
+<!--PRODUCTOS-->
   <div class="container-fluid py-5" id="quees">
     <div class="container">
       <div class="row">
@@ -300,7 +302,8 @@
     </div>
   </div>
   <br>
-  <div class="container-fluid py-5" id="contact">
+  <!--CONTACTO-->
+  <div class="container-fluid py-5" id="quees">
     <div class="container d-flex justify-content-around" id="contacto">
       <div class="row" data-aos="zoom-in">
         <div class="col-12 col-md-6 text-center">
@@ -328,7 +331,7 @@
   </div>
   <br>
 
-
+<!--PIE DE PAGINA-->
   <br>
   <div class="container-fluid text-white p-5" id="piedepagina" data-aos="fade-up">
     <footer>
@@ -382,6 +385,7 @@
       </div>
     </footer>
   </div>
+  <!--CUADRO DE DIALOGO-->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -444,7 +448,7 @@
             row.className = "row";
 
             let columna = document.createElement("div");
-            columna.className = "col-6 col-md-6 p-2";
+            columna.className = "col-12 col-md-6 p-2";
             columna.id = "productos";
 
             let nombre = document.createElement("h2");
@@ -460,7 +464,7 @@
             elemento.innerHTML = registro.caracteristicas;
 
             let img = document.createElement("div");
-            img.className = "col-6 col-md-6 p-2";
+            img.className = "col-12 col-md-6 p-2";
             img.id = "imagen";
 
             let foto = document.createElement("img");

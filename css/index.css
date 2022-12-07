@@ -255,8 +255,6 @@ ul {
 #formulario {
     display: inline-block;
     background: #102b46;
-    width: 400px;
-    height: 520px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     align-self: flex-start;
@@ -308,10 +306,6 @@ ul {
 #piedepagina a {
     color: #000000;
     text-decoration: none;
-}
-
-#piedepagina p:hover {
-    color: #CD8987;
 }
 
 #piedepagina a:hover {
